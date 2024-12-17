@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-data = pd.read_csv('/content/drive/MyDrive/network_traffic/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv')
+data = pd.read_csv('File Path')
 
 # Clean column names (if there are spaces or unwanted characters)
 data.columns = data.columns.str.strip()
